@@ -39,6 +39,14 @@ figure {
   margin: 0;
 }
 
+.content-section {
+  padding: 0 5vi;
+}
+
+.header {
+  padding-block-start: 10%;
+}
+
 a:focus,
 button:focus {
   outline: none;
@@ -47,6 +55,11 @@ button:focus {
 a:focus-visible,
 button:focus-visible {
   outline: 1px solid currentColor;
+}
+
+.header__title {
+  font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
+  margin-block-end: 40px;
 }
 
 button:disabled {
@@ -105,14 +118,7 @@ button:disabled {
   inset-inline-start:-4px;
 }
 
-.content-section {
-  padding: 0 5vi;
-}
 
-.header__title {
-  font-size: clamp(3.75rem, 2.5rem + 5.5556vw, 7.5rem);
-  margin-block-end: 40px;
-}
 
 .content__title {
   margin: 7% 0 2.5%;
